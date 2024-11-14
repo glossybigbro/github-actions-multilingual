@@ -1,8 +1,4 @@
 title: "GitHub Actions Multilingual"
 baseurl: "/github-actions-multilingual"
 url: "https://glossybigbro.github.io"
-
-languages:
-  ko: "한국어"
-  en: "English"
-default_lang: "ko"
+theme: jekyll-theme-cayman
