@@ -14,34 +14,28 @@ plugins:
 
 # 사이드바 설정
 defaults:
+  # _docs
   - scope:
       path: ""
       type: "docs" 
     values:
-      layout: single
-      sidebar: "docs"  # 기본 사이드바 이름 지정
-      nav: "main"  # main으로 설정한 사이드바 메뉴 사용
+      sidebar:
+        nav: "docs"
 
   - scope:
-      path: "en"  # 영어 문서 설정
+      path: "en"
       type: "docs"
     values:
       lang: "en"
-      navigation: "navigation-en"  # 영어용 네비게이션 설정
-      sidebar: "docs"
-      nav: "main"
+      navigation: "navigation-en"
+      sidebar:
+        nav: "docs"
 
   - scope:
-      path: "ko"  # 한국어 문서 설정
+      path: "ko"
       type: "docs"
     values:
       lang: "ko"
-      navigation: "navigation-ko"  # 한국어용 네비게이션 설정
-      sidebar: "docs"
-      nav: "main"
-
-# 컬렉션 설정 (사이드바를 활성화하기 위한 문서 타입 지정)
-collections:
-  docs:
-    output: true
-    permalink: /:path/
+      navigation: "navigation-ko"
+      sidebar:
+        nav: "docs"
