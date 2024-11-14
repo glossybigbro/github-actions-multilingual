@@ -1,5 +1,5 @@
 title: "GitHub Actions Multilingual"
 baseurl: "/github-actions-multilingual"
 url: "https://glossybigbro.github.io"
-remote_theme: "mmistakes/minimal-mistakes@latest"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 markdown: kramdown
