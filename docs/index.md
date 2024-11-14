@@ -1,5 +1,3 @@
-# 🌐 GitHub Actions Documentation
-
 Welcome! Please select your language below:  
 **언어를 선택하세요:**
 
