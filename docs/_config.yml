@@ -7,15 +7,29 @@ remote_theme: "mmistakes/minimal-mistakes@4.26.2"  # minimal-mistakes 테마 사
 # 사이드바 설정
 defaults:
   - scope:
+      path: ""
+      type: "docs"  # 문서 유형 지정
+    values:
+      layout: single  # minimal-mistakes 기본 레이아웃
+      sidebar:
+        nav: "docs"  # 사이드바 메뉴 설정 (docs로 설정)
+
+  - scope:
       path: "en"
     values:
       lang: "en"
-      navigation: "navigation-en"  # 영어 네비게이션 파일 지정
-      sidebar: "docs"  # 영어 페이지에서 사용할 사이드바 네비게이션 이름
+      navigation: "navigation-en"
+      sidebar: docs  # 영어 페이지에서 사이드바 표시
 
   - scope:
       path: "ko"
     values:
       lang: "ko"
-      navigation: "navigation-ko"  # 한국어 네비게이션 파일 지정
-      sidebar: "docs"  # 한국어 페이지에서 사용할 사이드바 네비게이션 이름
+      navigation: "navigation-ko"
+      sidebar: docs  # 한국어 페이지에서 사이드바 표시
+
+# 컬렉션 설정 (사이드바를 활성화하기 위한 문서 타입 지정)
+collections:
+  docs:
+    output: true
+    permalink: /:path/
