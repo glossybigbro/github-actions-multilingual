@@ -1,6 +1,6 @@
 ---
-layout: default
-title: "GitHub Actions 문서 - 한국어"
+title: "홈"
+layout: single
 lang: "ko"
 ---
 
