@@ -1,38 +1,39 @@
-- title: "Home"
-  url: "/en/"
+main:
+  - title: "Home"
+    url: "{{ site.baseurl }}/en/"
 
-- title: "Action"
-  url: "/en/action/"
+  - title: "Action"
+    url: "{{ site.baseurl }}/en/action/"
 
-- title: "Workflow"
-  children:
-    - title: "APK Build and Deployment Automation"
-      url: "/en/workflow/apk-build-deployment/"
-    - title: "APK Build and Deployment Triggered by PR Comments"
-      url: "/en/workflow/pr-trigger-apk-deployment/"
-    - title: "Single Mind Creation and Basic Setup"
-      url: "/en/workflow/single-mind-setup/"
-    - title: "Mind Creation and Basic Setup"
-      url: "/en/workflow/mind-setup/"
-    - title: "Mind-Based Alerts"
-      url: "/en/workflow/mind-alert/"
-    - title: "Old Branch and Tag Cleanup"
-      url: "/en/workflow/branch-tag-cleanup/"
+  - title: "Workflow"
+    children:
+      - title: "APK Build and Deployment Automation"
+        url: "{{ site.baseurl }}/en/workflow/apk-build-deployment/"
+      - title: "APK Build and Deployment Triggered by PR Comments"
+        url: "{{ site.baseurl }}/en/workflow/pr-trigger-apk-deployment/"
+      - title: "Single Mind Creation and Basic Setup"
+        url: "{{ site.baseurl }}/en/workflow/single-mind-setup/"
+      - title: "Mind Creation and Basic Setup"
+        url: "{{ site.baseurl }}/en/workflow/mind-setup/"
+      - title: "Mind-Based Alerts"
+        url: "{{ site.baseurl }}/en/workflow/mind-alert/"
+      - title: "Old Branch and Tag Cleanup"
+        url: "{{ site.baseurl }}/en/workflow/branch-tag-cleanup/"
 
-- title: "Optimization"
-  children:
-    - title: "Setting Gradle Properties for CI Environments"
-      url: "/en/optimization/gradle-settings/"
+  - title: "Optimization"
+    children:
+      - title: "Setting Gradle Properties for CI Environments"
+        url: "{{ site.baseurl }}/en/optimization/gradle-settings/"
 
-- title: "Issues and Solutions"
-  url: "/en/issues-and-solutions/"
+  - title: "Issues and Solutions"
+    url: "{{ site.baseurl }}/en/issues-and-solutions/"
 
-- title: "Integrations"
-  url: "/en/integrations/"
+  - title: "Integrations"
+    url: "{{ site.baseurl }}/en/integrations/"
 
-- title: "Tips and Tricks"
-  children:
-    - title: "Setting Permissions"
-      url: "/en/tips/permissions/"
-    - title: "Why Use Multiple Accounts and GITHUB_TOKEN in GitHub Actions"
-      url: "/en/tips/multiple-accounts/"
+  - title: "Tips and Tricks"
+    children:
+      - title: "Setting Permissions"
+        url: "{{ site.baseurl }}/en/tips/permissions/"
+      - title: "Why Use Multiple Accounts and GITHUB_TOKEN in GitHub Actions"
+        url: "{{ site.baseurl }}/en/tips/multiple-accounts/"
