@@ -2,7 +2,7 @@
 title: "GitHub Actions Multilingual"
 baseurl: "/github-actions-multilingual"  # GitHub Pages에서 사용하는 URL 경로
 url: "https://glossybigbro.github.io"  # 사이트의 기본 URL
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"  # minimal-mistakes 테마 사용
+remote_theme: "mmistakes/minimal-mistakes@4.26.0"  # minimal-mistakes 테마 사용
 
 # 사이드바 설정
 defaults:
