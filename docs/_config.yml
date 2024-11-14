@@ -1,5 +1,18 @@
 title: "GitHub Actions Multilingual"
 baseurl: "/github-actions-multilingual"
 url: "https://glossybigbro.github.io"
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+# remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 markdown: kramdown
+
+# 언어별 네비게이션 설정
+defaults:
+  - scope:
+      path: "en"
+    values:
+      lang: "en"
+      navigation: navigation-en
+  - scope:
+      path: "ko"
+    values:
+      lang: "ko"
+      navigation: navigation-ko
