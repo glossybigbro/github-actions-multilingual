@@ -1,4 +1,4 @@
-# 기본 사이트 설정
+# 사이트 기본 설정
 title: "GitHub Actions Multilingual"
 baseurl: "/github-actions-multilingual"  # GitHub Pages에서 사용하는 URL 경로
 url: "https://glossybigbro.github.io"  # 사이트의 기본 URL
@@ -8,25 +8,26 @@ remote_theme: "mmistakes/minimal-mistakes@4.26.2"  # minimal-mistakes 테마 사
 defaults:
   - scope:
       path: ""
-      type: "docs"  # 문서 유형 지정
+      type: "docs" 
     values:
-      layout: single  # minimal-mistakes 기본 레이아웃
-      sidebar:
-        nav: "docs"  # 사이드바 메뉴 설정 (docs로 설정)
+      layout: single
+      sidebar: "docs"  # 기본 사이드바 이름 지정
 
   - scope:
-      path: "en"
+      path: "en"  # 영어 문서 설정
+      type: "docs"
     values:
       lang: "en"
-      navigation: "navigation-en"
-      sidebar: docs  # 영어 페이지에서 사이드바 표시
+      navigation: "navigation-en"  # 영어용 네비게이션 설정
+      sidebar: "docs"
 
   - scope:
-      path: "ko"
+      path: "ko"  # 한국어 문서 설정
+      type: "docs"
     values:
       lang: "ko"
-      navigation: "navigation-ko"
-      sidebar: docs  # 한국어 페이지에서 사이드바 표시
+      navigation: "navigation-ko"  # 한국어용 네비게이션 설정
+      sidebar: "docs"
 
 # 컬렉션 설정 (사이드바를 활성화하기 위한 문서 타입 지정)
 collections:
