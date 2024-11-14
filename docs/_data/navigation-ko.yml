@@ -10,4 +10,11 @@ docs:
         url: "/ko/Workflow/APK-배포-자동화"
       - title: "PR 코멘트 트리거를 통한 APK 빌드"
         url: "/ko/Workflow/PR-코멘트-트리거-APK-빌드"
-  # 추가 페이지...
+  - title: "최적화"
+    url: "/ko/Optimization"
+  - title: "문제와 해결책"
+    url: "/ko/Issues-and-Solutions"
+  - title: "통합"
+    url: "/ko/Integrations"
+  - title: "팁과 요령"
+    url: "/ko/Tips-and-Tricks"

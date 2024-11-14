@@ -10,4 +10,11 @@ docs:
         url: "/en/Workflow/APK-Deployment-Automation"
       - title: "PR Comment Trigger for APK Build"
         url: "/en/Workflow/PR-Comment-Trigger-APK-Build"
-  # 추가 페이지...
+  - title: "Optimization"
+    url: "/en/Optimization"
+  - title: "Issues and Solutions"
+    url: "/en/Issues-and-Solutions"
+  - title: "Integrations"
+    url: "/en/Integrations"
+  - title: "Tips and Tricks"
+    url: "/en/Tips-and-Tricks"

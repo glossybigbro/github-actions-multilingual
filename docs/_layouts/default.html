@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang }}">
 <head>
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
@@ -7,9 +7,8 @@
 </head>
 <body>
 <div class="sidebar">
-    <h2>Navigation</h2>
+    {% assign nav_items = site.data["navigation-" | append: page.lang ] %}
     <ul>
-        {% assign nav_items = site.data["navigation-" | append: page.lang ] %}
         {% for item in nav_items.docs %}
         <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
         {% if item.children %}
@@ -22,6 +21,7 @@
         {% endfor %}
     </ul>
 </div>
+
 <div class="content">
     {{ content }}
 </div>
