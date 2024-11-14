@@ -1,3 +1,5 @@
 title: "GitHub Actions Multilingual"
 baseurl: "/github-actions-multilingual"
 url: "https://glossybigbro.github.io"
+theme: "minimal-mistakes-jekyll"
+markdown: kramdown
