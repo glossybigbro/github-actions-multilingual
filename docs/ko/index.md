@@ -1,6 +1,7 @@
 ---
-layout: default-ko
-title: "GitHub Actions Documentation - 한국어"
+layout: default
+title: "홈 페이지 (한국어)"
+lang: "ko"
 ---
 
 <p align="right">

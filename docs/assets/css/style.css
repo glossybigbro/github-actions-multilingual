@@ -1,38 +1,57 @@
-#sidebar {
-    width: 200px;
+/* 전체 배경과 텍스트 색상 */
+body {
+    background-color: #181818;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+}
+
+/* 사이드바 스타일 */
+.sidebar {
+    width: 220px;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #f4f4f4;
-    padding: 20px;
     height: 100%;
-    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    background-color: #333;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
 }
 
-#sidebar h2 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
+.sidebar h2 {
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-bottom: 1em;
 }
 
-#sidebar ul {
-    list-style-type: none;
+.sidebar ul {
+    list-style: none;
     padding: 0;
 }
 
-#sidebar li {
-    margin: 10px 0;
+.sidebar ul li {
+    margin-bottom: 0.8em;
 }
 
-#sidebar a {
+.sidebar ul li a {
+    color: #b0b0b0;
     text-decoration: none;
-    color: #333;
 }
 
-#sidebar a:hover {
-    color: #0078D7;
+.sidebar ul li a:hover {
+    color: #ffffff;
 }
 
-#content {
-    margin-left: 220px;
+/* 콘텐츠 영역 스타일 */
+.content {
+    margin-left: 240px;
     padding: 20px;
+}
+
+/* 링크 색상 */
+a {
+    color: #1e90ff;
+}
+
+a:hover {
+    color: #63a4ff;
 }

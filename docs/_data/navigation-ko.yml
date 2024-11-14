@@ -1,0 +1,13 @@
+docs:
+  - title: "홈"
+    url: "/ko/index"
+  - title: "액션"
+    url: "/ko/Action"
+  - title: "워크플로우"
+    url: "/ko/Workflow"
+    children:
+      - title: "APK 배포 자동화"
+        url: "/ko/Workflow/APK-배포-자동화"
+      - title: "PR 코멘트 트리거를 통한 APK 빌드"
+        url: "/ko/Workflow/PR-코멘트-트리거-APK-빌드"
+  # 추가 페이지...

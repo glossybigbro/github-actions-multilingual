@@ -1,0 +1,13 @@
+docs:
+  - title: "Home"
+    url: "/en/index"
+  - title: "Action"
+    url: "/en/Action"
+  - title: "Workflow"
+    url: "/en/Workflow"
+    children:
+      - title: "APK Deployment Automation"
+        url: "/en/Workflow/APK-Deployment-Automation"
+      - title: "PR Comment Trigger for APK Build"
+        url: "/en/Workflow/PR-Comment-Trigger-APK-Build"
+  # 추가 페이지...

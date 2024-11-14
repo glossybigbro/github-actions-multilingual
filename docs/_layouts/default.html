@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+</head>
+<body>
+<div class="sidebar">
+    <h2>Navigation</h2>
+    <ul>
+        {% assign nav_items = site.data["navigation-" | append: page.lang ] %}
+        {% for item in nav_items.docs %}
+        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {% if item.children %}
+        <ul>
+            {% for child in item.children %}
+            <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</div>
+<div class="content">
+    {{ content }}
+</div>
+</body>
+</html>
