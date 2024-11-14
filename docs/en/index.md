@@ -1,6 +1,6 @@
 ---
-layout: default
-title: "GitHub Actions Documentation - English"
+title: "Home"
+layout: single
 lang: "en"
 ---
 
