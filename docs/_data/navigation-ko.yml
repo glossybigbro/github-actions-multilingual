@@ -1,4 +1,4 @@
-main:
+docs:
   - title: "Home"
     url: "{{ site.baseurl }}/ko/"
 
