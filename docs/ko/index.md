@@ -1,5 +1,10 @@
+---
+layout: default
+title: "GitHub Actions Documentation - 한국어"
+---
+
 <p align="right">
-  <a href="../en/index.html">🇺🇸 English</a>
+  <a href="./en/index.md">🇺🇸 English</a>
 </p>
 
 # 홈 페이지
