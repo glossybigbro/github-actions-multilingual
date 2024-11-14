@@ -1,13 +1,14 @@
 ---
-layout: default
+layout: default-en
 title: "GitHub Actions Documentation - English"
 ---
+
 
 <p align="right">
   <a href="./ko/index.md">🇰🇷 한국어</a>
 </p>
 
-# Home Page
+# GitHub Actions Documentation (English)
 
 Hello!
 

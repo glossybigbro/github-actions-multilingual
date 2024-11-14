@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+</head>
+<body>
+<!-- 영어 페이지 사이드바 -->
+<div id="sidebar">
+    <h2>Documentation (English)</h2>
+    <ul>
+        <li><a href="{{ "/en/index.md" | relative_url }}">Home</a></li>
+        <li><a href="{{ "/en/getting-started.md" | relative_url }}">Getting Started</a></li>
+        <li><a href="{{ "/en/workflows.md" | relative_url }}">Workflows</a></li>
+        <li><a href="{{ "/en/optimization.md" | relative_url }}">Optimization</a></li>
+    </ul>
+</div>
+
+<div id="content">
+    {{ content }}
+</div>
+</body>
+</html>

@@ -1,8 +1,3 @@
----
-layout: default
-title: "GitHub Actions Documentation"
----
-
 # 🌐 GitHub Actions Documentation
 
 Welcome! Please select your language below:  
