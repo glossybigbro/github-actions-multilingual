@@ -1,38 +1,39 @@
-- title: "Home"
-  url: "/ko/"
+main:
+  - title: "Home"
+    url: "{{ site.baseurl }}/ko/"
 
-- title: "Action"
-  url: "/ko/action/"
+  - title: "Action"
+    url: "{{ site.baseurl }}/ko/action/"
 
-- title: "Workflow"
-  children:
-    - title: "APK 빌드와 배포 자동화"
-      url: "/ko/workflow/apk-build-deployment/"
-    - title: "PR 코멘트 트리거 기반으로 APK 빌드 및 배포"
-      url: "/ko/workflow/pr-trigger-apk-deployment/"
-    - title: "단일 마인드를 생성 및 기본 설정"
-      url: "/ko/workflow/single-mind-setup/"
-    - title: "마인드를 생성 및 기본 설정"
-      url: "/ko/workflow/mind-setup/"
-    - title: "마인드 기반 알림"
-      url: "/ko/workflow/mind-alert/"
-    - title: "오래된 브랜치 및 태그 정리"
-      url: "/ko/workflow/branch-tag-cleanup/"
+  - title: "Workflow"
+    children:
+      - title: "APK 빌드와 배포 자동화"
+        url: "{{ site.baseurl }}/ko/workflow/apk-build-deployment/"
+      - title: "PR 코멘트 트리거 기반으로 APK 빌드 및 배포"
+        url: "{{ site.baseurl }}/ko/workflow/pr-trigger-apk-deployment/"
+      - title: "단일 마인드를 생성 및 기본 설정"
+        url: "{{ site.baseurl }}/ko/workflow/single-mind-setup/"
+      - title: "마인드를 생성 및 기본 설정"
+        url: "{{ site.baseurl }}/ko/workflow/mind-setup/"
+      - title: "마인드 기반 알림"
+        url: "{{ site.baseurl }}/ko/workflow/mind-alert/"
+      - title: "오래된 브랜치 및 태그 정리"
+        url: "{{ site.baseurl }}/ko/workflow/branch-tag-cleanup/"
 
-- title: "Optimization"
-  children:
-    - title: "CI 환경을 위한 Gradle 속성 설정"
-      url: "/ko/optimization/gradle-settings/"
+  - title: "Optimization"
+    children:
+      - title: "CI 환경을 위한 Gradle 속성 설정"
+        url: "{{ site.baseurl }}/ko/optimization/gradle-settings/"
 
-- title: "Issues and Solutions"
-  url: "/ko/issues-and-solutions/"
+  - title: "Issues and Solutions"
+    url: "{{ site.baseurl }}/ko/issues-and-solutions/"
 
-- title: "Integrations"
-  url: "/ko/integrations/"
+  - title: "Integrations"
+    url: "{{ site.baseurl }}/ko/integrations/"
 
-- title: "Tips and Tricks"
-  children:
-    - title: "Permissions 설정"
-      url: "/ko/tips/permissions/"
-    - title: "GitHub Actions에서 복 계정과 GITHUB_TOKEN을 사용하는 이유"
-      url: "/ko/tips/multiple-accounts/"
+  - title: "Tips and Tricks"
+    children:
+      - title: "Permissions 설정"
+        url: "{{ site.baseurl }}/ko/tips/permissions/"
+      - title: "GitHub Actions에서 복 계정과 GITHUB_TOKEN을 사용하는 이유"
+        url: "{{ site.baseurl }}/ko/tips/multiple-accounts/"
