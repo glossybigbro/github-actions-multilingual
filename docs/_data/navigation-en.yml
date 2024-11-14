@@ -1,20 +1,38 @@
-docs:
-  - title: "Home"
-    url: "/en/index"
-  - title: "Action"
-    url: "/en/Action"
-  - title: "Workflow"
-    url: "/en/Workflow"
-    children:
-      - title: "APK Deployment Automation"
-        url: "/en/Workflow/APK-Deployment-Automation"
-      - title: "PR Comment Trigger for APK Build"
-        url: "/en/Workflow/PR-Comment-Trigger-APK-Build"
-  - title: "Optimization"
-    url: "/en/Optimization"
-  - title: "Issues and Solutions"
-    url: "/en/Issues-and-Solutions"
-  - title: "Integrations"
-    url: "/en/Integrations"
-  - title: "Tips and Tricks"
-    url: "/en/Tips-and-Tricks"
+- title: "Home"
+  url: "/en/"
+
+- title: "Action"
+  url: "/en/action/"
+
+- title: "Workflow"
+  children:
+    - title: "APK Build and Deployment Automation"
+      url: "/en/workflow/apk-build-deployment/"
+    - title: "APK Build and Deployment Triggered by PR Comments"
+      url: "/en/workflow/pr-trigger-apk-deployment/"
+    - title: "Single Mind Creation and Basic Setup"
+      url: "/en/workflow/single-mind-setup/"
+    - title: "Mind Creation and Basic Setup"
+      url: "/en/workflow/mind-setup/"
+    - title: "Mind-Based Alerts"
+      url: "/en/workflow/mind-alert/"
+    - title: "Old Branch and Tag Cleanup"
+      url: "/en/workflow/branch-tag-cleanup/"
+
+- title: "Optimization"
+  children:
+    - title: "Setting Gradle Properties for CI Environments"
+      url: "/en/optimization/gradle-settings/"
+
+- title: "Issues and Solutions"
+  url: "/en/issues-and-solutions/"
+
+- title: "Integrations"
+  url: "/en/integrations/"
+
+- title: "Tips and Tricks"
+  children:
+    - title: "Setting Permissions"
+      url: "/en/tips/permissions/"
+    - title: "Why Use Multiple Accounts and GITHUB_TOKEN in GitHub Actions"
+      url: "/en/tips/multiple-accounts/"
